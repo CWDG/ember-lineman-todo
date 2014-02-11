@@ -25,7 +25,7 @@ module.exports = require(process.env['LINEMAN_MAIN']).config.extend('files', {
       "app/js/application.js",
       "app/js/store.js",
       "app/js/router.js",
-      "app/js/models/todo/js",
+      "app/js/models/todo.js",
       "app/js/**/*.js"
     ]
   }
