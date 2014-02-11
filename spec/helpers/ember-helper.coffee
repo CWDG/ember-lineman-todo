@@ -1,1 +1,1 @@
-App.deferReadiness();
+Todos.deferReadiness();
