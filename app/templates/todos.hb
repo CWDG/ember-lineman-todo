@@ -1,20 +1,11 @@
 <section id="todoapp">
   <header id="header">
     <h1>todos</h1>
-    {{input type="text" id="new-todo" placeholder="What needs to be done?" 
+    {{input type="text" id="new-todo" placeholder="What needs to be done?"
             value=newTitle action="createTodo"}}
   </header>
 
   <section id="main">
-    <ul id="todo-list">
-      {{#each}}
-        <li {{bind-attr class="isCompleted:completed"}}>
-          <input type="checkbox" class="toggle">
-          <label>{{title}}</label><button class="destroy"></button>
-        </li>
-      {{/each}}
-    </ul>
-
     <input type="checkbox" id="toggle-all">
   </section>
 
