@@ -27,9 +27,11 @@
       </li>
     </ul>
 
-    <button id="clear-completed">
-      Clear completed (1)
+    {{#if hasCompleted}}
+    <button id="clear-completed" {{action "clearCompleted"}}>
+      Clear completed ({{completed}})
     </button>
+    {{/if}}
   </footer>
 </section>
 
