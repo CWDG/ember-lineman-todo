@@ -1,6 +1,6 @@
 # Lineman + Ember + TodoMVC = :heart:
 
-[![Build Status](https://travis-ci.org/tarebyte/ember-lineman-todo.png)](https://travis-ci.org/tarebyte/ember-lineman-todo)
+[![Build Status](https://travis-ci.org/CWDG/ember-lineman-todo.png)](https://travis-ci.org/CWDG/ember-lineman-todo)
 
 A little example that pulls [lineman](https://github.com/linemanjs/lineman) & [ember](http://emberjs.com) together.
 
